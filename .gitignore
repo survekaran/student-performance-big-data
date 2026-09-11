@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+pyspark-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Hive / Derby
+metastore_db/
+derby.log
+derby.log.*
+
+# Hadoop temporary files
+.tmp/
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+.pytest_cache/
+
+# Generated output
+output/pyspark/
+
+# Environment / secrets
+.env
+*.env
